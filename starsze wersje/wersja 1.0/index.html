@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Losowanie</title>
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <div class="container">
+        <main>
+            <!-- <header>
+                <h1>Wylosuj zwycięzce!</h1>
+            </header> -->
+            <section>
+                
+                <h1>Dodaj nowych uczestników losowania</h1>
+                
+                <div class="box">
+                    
+                    <label for="element">Podaj imię i nazwisko:</label>
+                    <input id="element" type="text" maxlength="40">
+        
+                    <button id="addBtn">Dodaj</button>
+
+                    <p id="alert"></p>
+                    
+                </div>
+                 
+                <div class="box --1">
+                    <h1>Lista osób biorących udział w losowaniu: </h1>
+                    <p id="clear">Brak dodanych osób</p>
+                    <ol id="list">
+                    </ol>
+                </div>
+
+                <p id="result"></p>
+            </section>
+            
+            <div class="box --1">
+                <h1>Losowanie zwycięzcy</h1>
+                <button id="winnerBtn">Losuj</button>
+                
+            </div>
+
+            <div class="box --2" id="winner-box">
+                <h1>Zwycięzcą został</h1>
+                <p id="winner"></p>
+                <p id="alert-winner"></p>
+            </div>
+        </main>
+
+        <footer>
+            <h3>Autorem strony jest Marek Gondek</h3>
+            <p>Wersja: 1.0</p>
+        </footer>
+    </div>
+
+
+</body>
+<!-- <script src="https://kit.fontawesome.com/58309639ce.js" crossorigin="anonymous"></script> -->
+<script src="js/script.js"></script>
+<script src="js/confetti.js"></script>
+</html>
